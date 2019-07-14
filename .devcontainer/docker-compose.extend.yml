@@ -1,0 +1,7 @@
+version: "3"
+services:
+  angular8:
+    volumes:
+      - ~/.gitconfig:/root/.gitconfig
+      - ~/.ssh:/home/root/.ssh
+      - ./.root:/root

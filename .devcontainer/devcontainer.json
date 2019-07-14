@@ -1,0 +1,14 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+	"name": "Angular8開発環境",
+	"dockerComposeFile": ["../docker-compose.yml", "docker-compose.extend.yml"],
+	"service": "angular8",
+	"appPort": [4200],
+	"workspaceFolder": "/code",
+	"extensions": [
+	  "dbaeumer.vscode-eslint",
+	  "davidanson.vscode-markdownlint",
+	  "esbenp.prettier-vscode"
+	],
+	// "postCreateCommand": "yarn install"
+  }

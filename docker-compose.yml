@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  angular8:
+    build:
+      context: .
+      dockerfile: Dockerfile-Angular8
+    image: g-angular8:latest
+    ports:
+      - "4200:4200"
+    tty: true
+    volumes:
+      - "./code:/code"
